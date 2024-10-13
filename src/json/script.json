@@ -1,0 +1,28 @@
+[
+    {
+        "titre": "Introduction à l'intelligence artificielle",
+        "sousSections": [
+            {
+                "sousTitre": "Qu'est-ce que l'intelligence artificielle ?",
+                "contenuMarkdown": "src/markdown/intro_ai.md"
+            },
+            {
+                "sousTitre": "Les applications de l'IA",
+                "contenuMarkdown": "src/markdown/applications_ai.md"
+            }
+        ]
+    },
+    {
+        "titre": "Développement avec OpenAI",
+        "sousSections": [
+            {
+                "sousTitre": "Comment utiliser OpenAI API",
+                "contenuMarkdown": "src/markdown/openai_api.md"
+            },
+            {
+                "sousTitre": "Exemples de projets",
+                "contenuMarkdown": "src/markdown/examples.md"
+            }
+        ]
+    }
+]

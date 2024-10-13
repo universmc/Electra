@@ -1,0 +1,66 @@
+.sommaire-link {
+  display: block;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.sommaire-link:hover {
+  background-color: #f0f0f0;
+}
+
+.section {
+  margin: 40px 0;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+.sous-section {
+  margin: 20px 0;
+}
+.sous-section h3 {
+  font-size: 20px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.sous-section .markdown-contenu {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+.sous-section p {
+  font-size: 16px;
+  color: #555;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#contenuCours {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#sommaire {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=script.css.map */
