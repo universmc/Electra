@@ -56,18 +56,23 @@ server.listen(5001, () => {
   console.log('Serveur Express démarré sur http://localhost:5001');
 });
 
+
 function createWindow() {
   const win = new BrowserWindow({
     width: 987,
     height: 610,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'), // Charge le script de préchargement
+      renderer: path.join(__dirname, 'renderer.js'), // Charge le script de préchargement
       contextIsolation: true,
       enableRemoteModule: false,
     },
   });
 
   win.loadFile('index.html');
+  if (process.env.NODE_ENV === 'development') {
+    mainWindow.webContents.openDevTools();
+  }w
 }
 
 app.whenReady().then(createWindow);
